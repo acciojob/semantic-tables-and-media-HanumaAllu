@@ -7,11 +7,12 @@
 </head>
 
 <body>
-	<table>
+	
+    <table>
         <thead>
             <tr>
-                <th>Roll Numbers</th>
-                <th>Names</th>
+                <th>Roll Number</th>
+                <th>Name</th>
             </tr>
         </thead>
         <tbody>
@@ -29,14 +30,34 @@
             </tr>
         </tbody>
     </table>
-	
-	<header>List of medias</header>
 
-	<ol>
-		<li><img src="https://picsum.photos/id/123/200/300" alt="Water Droplets">Random Image</li>
-		<li><video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">Video Sample</video></li>
-		<li><audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">Audio Sample</audio></li>
-	</ol>
+   
+    <h2>List of medias</h2>
+
+    
+    <ol>
+        <li>
+            <strong>Image:</strong>
+            <br>
+            <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+        </li>
+        <li>
+            <strong>Video:</strong>
+            <br>
+            <video controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </li>
+        <li>
+            <strong>Audio:</strong>
+            <br>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+        </li>
+    </ol>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
